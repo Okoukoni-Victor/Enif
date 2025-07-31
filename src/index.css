@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.transparent {
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar .nav-link {
+  color: #cbb3ff;
+}
+
+.navbar .btn-light {
+  color: #5100ff;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: #6c27ff;
+}
+
+.hero .btn {
+  background-color: #f316c3;
+}
+
+.hero .social-links a {
+  background-color: #7646ff;
+  width: 50px;
+  height: 50px;
+}
+
+.ad-section {
+  background-color: #fafbff;
+}
+
+.ad-section .heading {
+  background: linear-gradient(
+    77.16deg,
+    #e8f5ff 15.6%,
+    #e4dfff 57.48%,
+    #fed1ff 99.75%
+  );
+  color: #18004c;
+  font-weight: 900;
+}
+
+.ad-section .lead {
+  color: #313233;
+}
+
+.ad-section .cta .btn {
+  background-color: #5100ff;
+}
